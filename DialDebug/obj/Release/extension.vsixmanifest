@@ -1,0 +1,17 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="DialDebug.Nico Vermeir.b638b0e7-9ff9-446e-8d68-eba1930506c9" Version="1.1" Language="en-US" Publisher="Nico Vermeir" />
+    <DisplayName>DialDebug</DisplayName>
+    <Description xml:space="preserve">Allows you to use the Surface Dial as a debugging tool. Clicking the dial launches a debug session, rotating clockwise is step over, rotating counter-clockwise is step into</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.14.0" DisplayName="Visual Studio MPF 14.0" Version="[14.0]" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="DialDebug.pkgdef" />
+  </Assets>
+</PackageManifest>
